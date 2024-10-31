@@ -1,0 +1,39 @@
+body {
+    font-family: "Outfit", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('wallpaper.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+h1 , p {
+    color: #fff; 
+}
+
+button {
+    font-family: "Outfit", sans-serif;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#card-display {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#card-image {
+    width: 150px;
+    height: auto;
+    margin-top: 10px;
+    display: none;
+}
+
